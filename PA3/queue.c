@@ -6,9 +6,13 @@
 #include <stdlib.h>
 //Standard I/O Library
 #include <stdio.h>
+//Linux pthread Library 
+#include <pthread.h>
 
 //Header File 
 #include "queue.h"
+#include "util.h"
+#include "multilookup.h"
 
 //initialize new queue
 //Input: Queue, Size  
